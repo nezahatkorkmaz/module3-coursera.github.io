@@ -1,0 +1,41 @@
+@import "font-awesome";
+.h1{
+    color:aliceblue;
+    display: inline-block;
+    padding-right: 10vh;
+}
+.nav-item:first-child{
+    font-size:40px;
+    color:aliceblue;
+    list-style: none;
+    margin-left: 370%;
+    justify-items: end;
+}
+@media screen and (max-width:766px)
+    {
+    .visible-xs{
+    visibility: hidden;}
+    .h1{
+    padding: 20px;
+    }
+}
+ @media screen and (min-width:575px) and (max-width:766px)
+    {
+    .nav-link{
+        visibility: hidden;
+    }
+}
+.title{
+    font-size:xx-large;
+    font-weight: 300;
+}
+.container-info{
+    background-color: rgb(60, 60, 60);
+    color:aliceblue;
+    width: 100%;
+    margin: 100px 20px 100px 20px;
+    
+}
+.list-group-item{
+    text-align: center;
+}
